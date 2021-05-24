@@ -1,0 +1,17 @@
+Altium/
+Robotics/
+*.mp4
+*.pdf
+*.xlsx
+*.pptx
+*.epf
+*.docx
+*.ms14
+*.ms14 (Security copy)
+*.pdsbak
+*.DSN
+*.pdsprj
+*.workspace
+*.ino
+*.b##
+*.s##
