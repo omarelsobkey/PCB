@@ -7984,7 +7984,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="D" urn="urn:adsk.eagle:symbol:43091/2">
+<symbol name="D" urn="urn:adsk.eagle:symbol:43091/2" locally_modified="yes">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -7995,8 +7995,6 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
@@ -8034,66 +8032,7 @@ Phone Connectors&lt;br&gt;
 Cinch Connectors&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SPC4078" urn="urn:adsk.eagle:footprint:7489/1">
-<description>&lt;b&gt;DC POWER JACK 2.5mm&lt;/b&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
-Source: www.spctechnology.com .. 84N1162.pdf&lt;br&gt;
-Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
-Created by Robert Siegler</description>
-<wire x1="-10.75" y1="-4.5" x2="-10.75" y2="-3.2" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-3.2" x2="-10.75" y2="3.2" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="3.2" x2="-10.75" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="-4.5" x2="-7.25" y2="4" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="4" x2="-7.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-7.25" y1="-4" x2="1.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="-7.25" y1="4" x2="1.25" y2="4" width="0.1" layer="21"/>
-<wire x1="1.25" y1="-4" x2="1.25" y2="4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-4.5" x2="1.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="4" x2="1.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="4.5" x2="1.25" y2="4.5" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-4.5" x2="1.25" y2="-4.5" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-4" x2="2.75" y2="-4" width="0.1" layer="51"/>
-<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="51"/>
-<wire x1="1.25" y1="4" x2="2.75" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="4" x2="3.25" y2="4" width="0.1" layer="21"/>
-<wire x1="3.25" y1="-4" x2="3.25" y2="4" width="0.1" layer="51"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="4" width="0.1" layer="51"/>
-<wire x1="-10.75" y1="3.2" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-10.75" y1="-3.2" x2="-1.75" y2="-3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="-1.25" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-1.25" x2="-1.75" y2="1.25" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="1.25" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-8.75" y1="1.25" x2="-1.75" y2="1.25" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="-1.25" x2="-1.75" y2="-1.25" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="1.25" x2="-8.75" y2="-1.25" width="0.1" layer="21" curve="180"/>
-<wire x1="2.5" y1="1.75" x2="3.5" y2="1.75" width="0" layer="46"/>
-<wire x1="3.5" y1="1.75" x2="3.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="3.5" y1="-1.75" x2="2.5" y2="-1.75" width="0" layer="46"/>
-<wire x1="2.5" y1="-1.75" x2="2.5" y2="1.75" width="0" layer="46"/>
-<wire x1="-3.4" y1="1.5" x2="-2.6" y2="1.5" width="0" layer="46"/>
-<wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0" layer="46"/>
-<wire x1="-2.6" y1="-1.5" x2="-3.4" y2="-1.5" width="0" layer="46"/>
-<wire x1="-3.4" y1="-1.5" x2="-3.4" y2="1.5" width="0" layer="46"/>
-<wire x1="-1.5" y1="-4.4" x2="1.5" y2="-4.4" width="0" layer="46"/>
-<wire x1="1.5" y1="-4.4" x2="1.5" y2="-5.2" width="0" layer="46"/>
-<wire x1="1.5" y1="-5.2" x2="-1.5" y2="-5.2" width="0" layer="46"/>
-<wire x1="-1.5" y1="-5.2" x2="-1.5" y2="-4.4" width="0" layer="46"/>
-<wire x1="2.75" y1="2.35" x2="2.75" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="-2.35" width="0.1" layer="21"/>
-<wire x1="3.25" y1="-4" x2="3.25" y2="-2.35" width="0.1" layer="21"/>
-<wire x1="3.25" y1="2.35" x2="3.25" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-4.5" x2="-2.56" y2="-4.5" width="0.1" layer="21"/>
-<wire x1="1.25" y1="-2.73" x2="1.25" y2="4" width="0.1" layer="21"/>
-<pad name="2" x="0" y="-4.8" drill="0.8" diameter="2.1844" shape="long"/>
-<pad name="1" x="-3" y="0" drill="0.8" diameter="2.1844" shape="long" rot="R90"/>
-<pad name="3" x="3" y="0" drill="1" diameter="2.1844" shape="long" rot="R90"/>
-<text x="-10.16" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-10.16" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.25" y1="-5.05" x2="1.25" y2="-4.55" layer="51"/>
-<rectangle x1="2.75" y1="-1.5" x2="3.25" y2="1.5" layer="51"/>
-<rectangle x1="-3.1" y1="-1.25" x2="-2.9" y2="1.25" layer="51"/>
-</package>
-<package name="SPC4077" urn="urn:adsk.eagle:footprint:7488/1">
+<package name="SPC4077" urn="urn:adsk.eagle:footprint:7488/1" locally_modified="yes">
 <description>&lt;b&gt;DC POWER JACK 2mm&lt;/b&gt;&lt;br&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
 Source: www.spctechnology.com .. 84N1161.pdf&lt;br&gt;
 Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
@@ -8143,26 +8082,76 @@ Created by Robert Siegler</description>
 <wire x1="1.25" y1="-2.73" x2="1.25" y2="4" width="0.1" layer="21"/>
 <wire x1="2.75" y1="2.35" x2="2.75" y2="4" width="0.1" layer="21"/>
 <wire x1="2.75" y1="-4" x2="2.75" y2="-2.35" width="0.1" layer="21"/>
-<pad name="2" x="0" y="-4.8" drill="0.8" diameter="2.1844" shape="long"/>
-<pad name="1" x="-3" y="0" drill="0.8" diameter="2.1844" shape="long" rot="R90"/>
-<pad name="3" x="3" y="0" drill="1" diameter="2.1844" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-4.8" drill="2" diameter="3.5" shape="octagon"/>
+<pad name="1" x="-3" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="3" x="3" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
 <text x="-10.16" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-10.16" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.25" y1="-5.05" x2="1.25" y2="-4.55" layer="51"/>
 <rectangle x1="2.75" y1="-1.5" x2="3.25" y2="1.5" layer="51"/>
 <rectangle x1="-3.1" y1="-1.25" x2="-2.9" y2="1.25" layer="51"/>
 </package>
+<package name="SPC4078" urn="urn:adsk.eagle:footprint:7489/1" locally_modified="yes">
+<description>&lt;b&gt;DC POWER JACK 2.5mm&lt;/b&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
+Source: www.spctechnology.com .. 84N1162.pdf&lt;br&gt;
+Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
+Created by Robert Siegler</description>
+<wire x1="-10.75" y1="-4.5" x2="-10.75" y2="-3.2" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="-3.2" x2="-10.75" y2="3.2" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="3.2" x2="-10.75" y2="4.5" width="0.1" layer="21"/>
+<wire x1="-7.25" y1="-4.5" x2="-7.25" y2="4" width="0.1" layer="21"/>
+<wire x1="-7.25" y1="4" x2="-7.25" y2="4.5" width="0.1" layer="21"/>
+<wire x1="-7.25" y1="-4" x2="1.25" y2="-4" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="4" x2="1.25" y2="4" width="0.1" layer="21"/>
+<wire x1="1.25" y1="-4" x2="1.25" y2="4" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-4.5" x2="1.25" y2="-4" width="0.1" layer="51"/>
+<wire x1="1.25" y1="4" x2="1.25" y2="4.5" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="4.5" x2="1.25" y2="4.5" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="-4.5" x2="1.25" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-4" x2="2.75" y2="-4" width="0.1" layer="51"/>
+<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="51"/>
+<wire x1="1.25" y1="4" x2="2.75" y2="4" width="0.1" layer="21"/>
+<wire x1="2.75" y1="4" x2="3.25" y2="4" width="0.1" layer="21"/>
+<wire x1="3.25" y1="-4" x2="3.25" y2="4" width="0.1" layer="51"/>
+<wire x1="2.75" y1="-4" x2="2.75" y2="4" width="0.1" layer="51"/>
+<wire x1="-10.75" y1="3.2" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-10.75" y1="-3.2" x2="-1.75" y2="-3.2" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="-1.25" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-1.75" y1="-1.25" x2="-1.75" y2="1.25" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-1.75" y1="1.25" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-8.75" y1="1.25" x2="-1.75" y2="1.25" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-8.75" y1="-1.25" x2="-1.75" y2="-1.25" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-8.75" y1="1.25" x2="-8.75" y2="-1.25" width="0.1" layer="21" curve="180"/>
+<wire x1="2.5" y1="1.75" x2="3.5" y2="1.75" width="0" layer="46"/>
+<wire x1="3.5" y1="1.75" x2="3.5" y2="-1.75" width="0" layer="46"/>
+<wire x1="3.5" y1="-1.75" x2="2.5" y2="-1.75" width="0" layer="46"/>
+<wire x1="2.5" y1="-1.75" x2="2.5" y2="1.75" width="0" layer="46"/>
+<wire x1="-3.4" y1="1.5" x2="-2.6" y2="1.5" width="0" layer="46"/>
+<wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0" layer="46"/>
+<wire x1="-2.6" y1="-1.5" x2="-3.4" y2="-1.5" width="0" layer="46"/>
+<wire x1="-3.4" y1="-1.5" x2="-3.4" y2="1.5" width="0" layer="46"/>
+<wire x1="-1.5" y1="-4.4" x2="1.5" y2="-4.4" width="0" layer="46"/>
+<wire x1="1.5" y1="-4.4" x2="1.5" y2="-5.2" width="0" layer="46"/>
+<wire x1="1.5" y1="-5.2" x2="-1.5" y2="-5.2" width="0" layer="46"/>
+<wire x1="-1.5" y1="-5.2" x2="-1.5" y2="-4.4" width="0" layer="46"/>
+<wire x1="2.75" y1="2.35" x2="2.75" y2="4" width="0.1" layer="21"/>
+<wire x1="2.75" y1="-4" x2="2.75" y2="-2.35" width="0.1" layer="21"/>
+<wire x1="3.25" y1="-4" x2="3.25" y2="-2.35" width="0.1" layer="21"/>
+<wire x1="3.25" y1="2.35" x2="3.25" y2="4" width="0.1" layer="21"/>
+<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="-4.5" x2="-2.56" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="1.25" y1="-2.73" x2="1.25" y2="4" width="0.1" layer="21"/>
+<pad name="2" x="0" y="-4.8" drill="2" diameter="3.5" shape="octagon"/>
+<pad name="1" x="-3" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<pad name="3" x="3" y="0" drill="2" diameter="3.5" shape="octagon" rot="R90"/>
+<text x="-10.16" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-10.16" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-1.25" y1="-5.05" x2="1.25" y2="-4.55" layer="51"/>
+<rectangle x1="2.75" y1="-1.5" x2="3.25" y2="1.5" layer="51"/>
+<rectangle x1="-3.1" y1="-1.25" x2="-2.9" y2="1.25" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="SPC4078" urn="urn:adsk.eagle:package:7494/1" type="box">
-<description>DC POWER JACK 2.5mm Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals
-Source: www.spctechnology.com .. 84N1162.pdf
-Distributor: Farnell (www.Farnell.de)
-Created by Robert Siegler</description>
-<packageinstances>
-<packageinstance name="SPC4078"/>
-</packageinstances>
-</package3d>
 <package3d name="SPC4077" urn="urn:adsk.eagle:package:27721242/2" type="model">
 <description>DC POWER JACK 2mm Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals
 Source: www.spctechnology.com .. 84N1161.pdf
@@ -8170,6 +8159,15 @@ Distributor: Farnell (www.Farnell.de)
 Created by Robert Siegler</description>
 <packageinstances>
 <packageinstance name="SPC4077"/>
+</packageinstances>
+</package3d>
+<package3d name="SPC4078" urn="urn:adsk.eagle:package:7494/1" type="box">
+<description>DC POWER JACK 2.5mm Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals
+Source: www.spctechnology.com .. 84N1162.pdf
+Distributor: Farnell (www.Farnell.de)
+Created by Robert Siegler</description>
+<packageinstances>
+<packageinstance name="SPC4078"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -9558,7 +9556,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </library>
 <library name="CH340G" urn="urn:adsk.eagle:library:28377960">
 <packages>
-<package name="SOP-16" urn="urn:adsk.eagle:footprint:28377961/1" library_version="2">
+<package name="SOP-16" urn="urn:adsk.eagle:footprint:28377961/2" locally_modified="yes" library_version="3" library_locally_modified="yes">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
 16-Pin (150-Mil) SOIC&lt;br&gt;
 Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
@@ -9599,11 +9597,12 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <rectangle x1="-2.1501" y1="1.8951" x2="-1.6599" y2="2.921" layer="51"/>
 <rectangle x1="-3.4201" y1="1.8951" x2="-2.9299" y2="2.921" layer="51"/>
 <rectangle x1="-4.6901" y1="1.8951" x2="-4.1999" y2="2.921" layer="51"/>
-<text x="-6.35" y="0" size="1.016" layer="21" rot="R90" align="center">&gt;NAME</text>
+<text x="-6.35" y="0" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center">&gt;NAME</text>
+<text x="6.35" y="0" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOP-16" urn="urn:adsk.eagle:package:28377963/2" type="model" library_version="2">
+<package3d name="SOP-16" urn="urn:adsk.eagle:package:28377963/3" type="model" library_version="3" library_locally_modified="yes">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
 16-Pin (150-Mil) SOIC&lt;br&gt;
 Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
@@ -9638,7 +9637,7 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CH340G" urn="urn:adsk.eagle:component:28377964/2" prefix="U" library_version="2">
+<deviceset name="CH340G" urn="urn:adsk.eagle:component:28377964/3" prefix="U" library_version="3" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CH340G" x="-7.62" y="-10.16"/>
 </gates>
@@ -9663,7 +9662,7 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <connect gate="G$1" pin="XO" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28377963/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28377963/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10715,7 +10714,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <part name="PORTD" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="PORTE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="J2" library="Connector_USB" library_urn="urn:adsk.eagle:library:27510300" deviceset="61729-1011" device="" package3d_urn="urn:adsk.eagle:package:27659501/2" value=""/>
-<part name="U1" library="CH340G" library_urn="urn:adsk.eagle:library:28377960" deviceset="CH340G" device="" package3d_urn="urn:adsk.eagle:package:28377963/2"/>
+<part name="U1" library="CH340G" library_urn="urn:adsk.eagle:library:28377960" deviceset="CH340G" device="" package3d_urn="urn:adsk.eagle:package:28377963/3"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Y2" library="SparkFun-Clocks" deviceset="CRYSTAL" device="PTH-HC49UV" package3d_urn="urn:adsk.eagle:package:28228414/2" value="12MHz"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="22PF" device="-PTH-2.54MM-200V-5%" package3d_urn="urn:adsk.eagle:package:28228393/2" value="22pF"/>
