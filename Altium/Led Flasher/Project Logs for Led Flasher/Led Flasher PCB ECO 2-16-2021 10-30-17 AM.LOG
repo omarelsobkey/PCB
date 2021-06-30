@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=out Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=D2-2
+Change Component Footprint: Designator=D1 Old Footprint=LED-1 New Footprint=WL-TIRW_D3.9H5.3
+Change Component Footprint: Designator=D2 Old Footprint=LED-1 New Footprint=WL-TIRW_D3.9H5.3
+Change Component Comment : Designator=D1 Old Comment=LED1 New Comment=15400385A3590
+Change Component Comment : Designator=D2 Old Comment=LED1 New Comment=15400385A3590
+Change component parameters: Designator = "D1" ("D1"); Footprint = "LED-1"; UniqueID = "\DGTHMXEA" ("\DGTHMXEA")
+Change component parameters (AddParameter): Name = "Centroid Wavelength"; Value = "845nm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Chip Technology"; Value = "AlGaAs"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/15400385A3590.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Emitting Color"; Value = "Infrared"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Voltage"; Value = "1.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "15400385A3590"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 to +85degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak Wavelength"; Value = "850nm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published Date"; Value = "August 2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiant Intensity typ."; Value = "60mW/sr"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "D3.9H5.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Viewing Angle"; Value = "35deg"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2" ("D2"); Footprint = "LED-1"; UniqueID = "\SBMBVCUV" ("\SBMBVCUV")
+Change component parameters (AddParameter): Name = "Centroid Wavelength"; Value = "845nm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Chip Technology"; Value = "AlGaAs"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/15400385A3590.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Emitting Color"; Value = "Infrared"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Voltage"; Value = "1.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "15400385A3590"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 to +85degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak Wavelength"; Value = "850nm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published Date"; Value = "August 2020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiant Intensity typ."; Value = "60mW/sr"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "D3.9H5.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Viewing Angle"; Value = "35deg"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=out Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R3-1
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R4-1
+Added Net: Name=NetD2_2
+Added Member To Class: ClassName=Led Flasher Member=Component C1 Cap Pol1
+Added Room: Name=Led Flasher

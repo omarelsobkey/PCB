@@ -1,0 +1,105 @@
+Removed Member From Class: ClassName=Sheet1 Member=P7
+Removed Member From Class: ClassName=Sheet1 Member=P8
+Removed Member From Class: ClassName=Sheet1 Member=P9
+Removed Member From Class: ClassName=Sheet1 Member=P10
+Change Component Footprint: Designator=P5 Old Footprint=HDR1X4 New Footprint=HDR1X8
+Change Component Footprint: Designator=P3 Old Footprint=HDR1X6 New Footprint=HDR1X9
+Change Component Footprint: Designator=P6 Old Footprint=HDR1X8 New Footprint=HDR1X10
+Change Component Footprint: Designator=P4 Old Footprint=MHDR1X2 New Footprint=HDR1X6
+Change Component Comment : Designator=P5 Old Comment=Header 4 New Comment=Header 8
+Change Component Comment : Designator=P3 Old Comment=Header 6 New Comment=Header 9
+Change Component Comment : Designator=P6 Old Comment=Header 8 New Comment=Header 10
+Change Component Comment : Designator=P4 Old Comment=MHDR1X2 New Comment=Header 6
+Change Net Name : Old Net Name=NetM1_6 New Net Name=6
+Change Net Name : Old Net Name=NetM1_19 New Net Name=19
+Change Net Name : Old Net Name=NetM1_20 New Net Name=20
+Added Pin To Net: NetName=2 Pin=M1-2
+Added Pin To Net: NetName=2 Pin=P3-9
+Added Net: Name=2
+Added Pin To Net: NetName=3 Pin=M1-3
+Added Pin To Net: NetName=3 Pin=P3-8
+Added Net: Name=3
+Added Pin To Net: NetName=4 Pin=M1-4
+Added Pin To Net: NetName=4 Pin=P3-7
+Added Net: Name=4
+Added Pin To Net: NetName=5 Pin=M1-5
+Added Pin To Net: NetName=5 Pin=P3-6
+Added Net: Name=5
+Added Pin To Net: NetName=7 Pin=M1-7
+Added Pin To Net: NetName=7 Pin=P3-4
+Added Net: Name=7
+Added Pin To Net: NetName=8 Pin=M1-8
+Added Pin To Net: NetName=8 Pin=P3-3
+Added Net: Name=8
+Added Pin To Net: NetName=9 Pin=M1-9
+Added Pin To Net: NetName=9 Pin=P3-2
+Added Net: Name=9
+Added Pin To Net: NetName=10 Pin=M1-10
+Added Pin To Net: NetName=10 Pin=P3-1
+Added Net: Name=10
+Added Pin To Net: NetName=15 Pin=M1-15
+Added Pin To Net: NetName=15 Pin=P4-6
+Added Net: Name=15
+Added Pin To Net: NetName=16 Pin=M1-16
+Added Pin To Net: NetName=16 Pin=P4-5
+Added Net: Name=16
+Added Pin To Net: NetName=17 Pin=M1-17
+Added Pin To Net: NetName=17 Pin=P4-4
+Added Net: Name=17
+Added Pin To Net: NetName=18 Pin=M1-18
+Added Pin To Net: NetName=18 Pin=P4-3
+Added Net: Name=18
+Added Pin To Net: NetName=21 Pin=M1-21
+Added Pin To Net: NetName=21 Pin=P6-10
+Added Net: Name=21
+Added Pin To Net: NetName=22 Pin=M1-22
+Added Pin To Net: NetName=22 Pin=P6-9
+Added Net: Name=22
+Added Pin To Net: NetName=23 Pin=P6-8
+Added Net: Name=23
+Added Pin To Net: NetName=24 Pin=M1-24
+Added Pin To Net: NetName=24 Pin=P6-7
+Added Net: Name=24
+Added Pin To Net: NetName=25 Pin=M1-25
+Added Pin To Net: NetName=25 Pin=P6-6
+Added Net: Name=25
+Added Pin To Net: NetName=26 Pin=M1-26
+Added Pin To Net: NetName=26 Pin=P6-5
+Added Net: Name=26
+Added Pin To Net: NetName=27 Pin=M1-27
+Added Pin To Net: NetName=27 Pin=P6-4
+Added Net: Name=27
+Added Pin To Net: NetName=28 Pin=M1-28
+Added Pin To Net: NetName=28 Pin=P6-3
+Added Net: Name=28
+Added Pin To Net: NetName=29 Pin=M1-29
+Added Pin To Net: NetName=29 Pin=P6-2
+Added Net: Name=29
+Added Pin To Net: NetName=30 Pin=M1-30
+Added Pin To Net: NetName=30 Pin=P6-1
+Added Net: Name=30
+Added Pin To Net: NetName=33 Pin=M1-33
+Added Pin To Net: NetName=33 Pin=P5-8
+Added Net: Name=33
+Added Pin To Net: NetName=34 Pin=M1-34
+Added Pin To Net: NetName=34 Pin=P5-7
+Added Net: Name=34
+Added Pin To Net: NetName=35 Pin=M1-35
+Added Pin To Net: NetName=35 Pin=P5-6
+Added Net: Name=35
+Added Pin To Net: NetName=36 Pin=M1-36
+Added Pin To Net: NetName=36 Pin=P5-5
+Added Net: Name=36
+Added Pin To Net: NetName=37 Pin=M1-37
+Added Pin To Net: NetName=37 Pin=P5-4
+Added Net: Name=37
+Added Pin To Net: NetName=38 Pin=M1-38
+Added Pin To Net: NetName=38 Pin=P5-3
+Added Net: Name=38
+Added Pin To Net: NetName=39 Pin=M1-39
+Added Pin To Net: NetName=39 Pin=P5-2
+Added Net: Name=39
+Added Pin To Net: NetName=40 Pin=M1-40
+Added Pin To Net: NetName=40 Pin=P5-1
+Added Net: Name=40
+Added Room: Name=Sheet1

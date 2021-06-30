@@ -1,0 +1,43 @@
+Change Component Footprint: Designator=J1 Old Footprint=CUI-PJ-002A_V New Footprint=CUI-PJ-002A_V
+Change Component Footprint: Designator=U1 Old Footprint=FAIR-TO-220-3 New Footprint=FAIR-TO-220-3
+Change Component Footprint: Designator=LED1 Old Footprint=Type 3mm New Footprint=Type 3mm
+Added Component: Designator=C1(CAP_RDE5C2A220J0M1H03A)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RDE5C2A220J0M1H03A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/RDE5C2A220J0M1H03A/Murata/view-part/4545539/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP_RDE5C2A220J0M1H03A)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RDE5C2A220J0M1H03A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/RDE5C2A220J0M1H03A/Murata/view-part/4545539/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP_RDE5C2A220J0M1H03A)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RDE5C2A220J0M1H03A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/RDE5C2A220J0M1H03A/Murata/view-part/4545539/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP_RDE5C2A220J0M1H03A)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RDE5C2A220J0M1H03A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Radial Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/RDE5C2A220J0M1H03A/Murata/view-part/4545539/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=NC Pin=C1-2
+Added Pin To Net: NetName=VCC Pin=C2-1
+Added Pin To Net: NetName=NC Pin=C2-2
+Added Pin To Net: NetName=+5 Pin=C3-1
+Added Pin To Net: NetName=NC Pin=C3-2
+Added Pin To Net: NetName=+5 Pin=C4-1
+Added Pin To Net: NetName=NC Pin=C4-2

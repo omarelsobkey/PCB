@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=ena Pin=X2-1
+Removed Pin From Net: NetName=in1 Pin=X2-2
+Removed Pin From Net: NetName=in2 Pin=X2-3
+Removed Pin From Net: NetName=in3 Pin=X3-1
+Removed Pin From Net: NetName=in4 Pin=X3-2
+Removed Pin From Net: NetName=enb Pin=X3-3
+Added Component: Designator=P1(HDR1X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(HDR1X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=enb Pin=P1-1
+Added Pin To Net: NetName=in4 Pin=P1-2
+Added Pin To Net: NetName=in3 Pin=P1-3
+Added Pin To Net: NetName=in2 Pin=P2-1
+Added Pin To Net: NetName=in1 Pin=P2-2
+Added Pin To Net: NetName=ena Pin=P2-3

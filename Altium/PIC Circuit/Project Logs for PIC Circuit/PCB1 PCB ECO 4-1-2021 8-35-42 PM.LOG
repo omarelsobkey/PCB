@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=P4 Old Footprint=HDR1X8H New Footprint=HDR1X8
+Change Component Footprint: Designator=P5 Old Footprint=HDR1X8H New Footprint=HDR1X8
+Change Component Footprint: Designator=P6 Old Footprint=HDR1X8H New Footprint=HDR1X8
+Change Component Comment : Designator=P4 Old Comment=Header 8H New Comment=Header 8
+Change Component Comment : Designator=P5 Old Comment=Header 8H New Comment=Header 8
+Change Component Comment : Designator=P6 Old Comment=Header 8H New Comment=Header 8
+Added Room: Name=Sheet1
