@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=control.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=control.SchDoc|FileName=input.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=control.SchDoc|FileName=output.SchDoc|SheetNumber=3
